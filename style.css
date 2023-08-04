@@ -1,0 +1,92 @@
+/* Add your custom styles here */
+
+/* Hero Section */
+.hero {
+    /* background-image: url('path-to-your-image.jpg');
+    background-size: cover; */
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+
+/* About Section */
+.about-section,
+.vision-section,
+.innovation-section,
+.collaboration-section,
+.growth-mindset-section,
+.beyond-classroom-section,
+.join-journey-section,
+.contact-section {
+    padding: 50px 0;
+}
+
+/* Section Headings */
+.about-section h2,
+.vision-section h2,
+.innovation-section h2,
+.collaboration-section h2,
+.growth-mindset-section h2,
+.beyond-classroom-section h2,
+.join-journey-section h2,
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    word-spacing: 1px;
+    color: #fff;
+}
+
+h1{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+
+
+body{
+    background-color: black;
+}
+
+
+h2{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    h2{
+        font-size: 22px;
+    }
+
+    p{
+    font-size: 13px;
+    }
+
+    .hero h1{
+        font-size: 27px;
+    }
+    
+}
